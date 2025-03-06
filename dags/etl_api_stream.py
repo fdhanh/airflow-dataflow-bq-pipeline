@@ -44,7 +44,7 @@ def get_song_list(context):
     # open spreadsheet
     spreadsheet = client.open_by_key(SPREADSHEET_ID)
     worksheet = spreadsheet.worksheet(SPREADSHEET_SHEET_NAME)
-    data = worksheet.get_all_records()[:5]
+    data = worksheet.get_all_records()
     return data
 
 def fetch_spotify_api_data(**context):
