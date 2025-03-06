@@ -1,0 +1,7 @@
+gspread==5.7.2
+pyarrow
+apache-airflow
+apache-airflow-providers-apache-beam
+apache-airflow-providers-google
+apache-beam[gcp]
+# google-cloud-sdk
